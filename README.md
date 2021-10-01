@@ -11,15 +11,15 @@ This View can be used in place of <b>SafeAreaView</b> in <b>react-native</b>.
 
 ### usage
 
-import React from 'react'
-import { Text } from 'react-native'
-import SafeView from './SafeView'
-
-export default const App = () => {
-
-  return(
-    <SafeView>
-      <Text>This is a text component inside a safe view which works on both iOS and Android.</Text>
-    </SafeView>
-  )
-}
+import React from 'react'<br>
+import { Text } from 'react-native'<br>
+import SafeView from './SafeView'<br>
+<br>
+export default const App = () => {<br>
+<br>
+&nbsp;return(<br>
+&nbsp;&nbsp;<SafeView><br>
+&nbsp;&nbsp;&nbsp;<Text>This is a text component inside a safe view which works on both iOS and Android.</Text><br>
+&nbsp;&nbsp;</SafeView><br>
+&nbsp;)<br>
+}<br>
