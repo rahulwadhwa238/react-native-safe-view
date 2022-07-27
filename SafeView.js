@@ -11,7 +11,7 @@ export default function SafeView({ children, screenMode = 'full' | 'safe' | null
                 {children}
             </View>
             :
-            <SafeAreaView style={{ flex: 1, paddingTop: Platform.OS === 'android' ? StatusBar.currentHeight : 0, backgroundColor: colors.white }}>
+            <SafeAreaView style={{ flex: 1, paddingTop: Platform.OS === 'android' ? StatusBar.currentHeight *1.5 : 0, backgroundColor: colors.white }}>
                 {children}
             </SafeAreaView>
     )
